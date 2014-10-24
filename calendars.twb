@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook version='8.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8100.13.1119.2300                -->
+  <preferences>
+  </preferences>
+  <datasources>
+    <datasource caption='calendars' inline='true' name='excel.41926.778213599537' version='8.2'>
+      <connection auto-extract='yes' class='excel' driver='Ace12' filename='C:\Users\admin\Documents\Legacy\calendars\calendars.xlsx' header='yes' imex='1'>
+        <relation name='creators$' table='[creators$]' type='table' />
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[email]' role='dimension' type='nominal'>
+      </column>
+      <column-instance column='[email]' derivation='None' name='[none:email:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:email:nk]' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;hugo.owen@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;josephine@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;martin@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;nicolas@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;sigbjorn@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;alexandre@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;anthony@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;louise-anne@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;paul.gallavardin@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;serge@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;antoine@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;arnaud.mathieu@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;charles@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;gautier@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;pei.zhang@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;celine@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;lamiae@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;lea@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;pierre@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;soline@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;frederic@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;helene.moittie@pimkie.com&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;jean@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;laurent.meyer@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;lea.berthelot@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;clement@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;edouard@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;fanny@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;gwenn@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;jean-baptiste@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;camille.cosnefroy@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;charlie.idrac@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;francois@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;hichem@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;matthieu@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;annabelle@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;charlotte@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;kristina@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;simon@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;xavier@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;ameet@nmodal.com&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;guillaume@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;kimtran@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;lilia@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;reda@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;antoine.barczewski@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;bertrand.bruandet@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;mats@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;nicolas.aucher@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;olivier.ravindranathan@elbee.fr&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;benoit@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;jerome.cail@tealium.com&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;julie-anne@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;lydia@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;olivier@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;denis@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;douglas@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;elisebert@google.com&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;jean-francois@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;jerome@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;hugo@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;louis@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;marjorie@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;moulay@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;vasyl@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;aurelie@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;bertrand@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;claire@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;david@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;elodie@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;fabrice@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;genevieve@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;hippolyte@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;marie-adeline@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;romain@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;adrien@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;alan@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;julie.tournier@marinsoftware.com&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;marion@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;robin@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;audrey@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;laetitia@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;lananh@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;maxime@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;sean@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;andrei@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;antoine.lenotre@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;igor@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;laurent.senesi@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;mathilde@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;benjamin@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;cyril@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;elie@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;eurydice@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;issam@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;arnaud.besdeberc@ddb.fr&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;arnaud@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;camille@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;paul@fifty-five.com&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;vincent@fifty-five.com&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+          </datasources>
+          <aggregation value='true' />
+        </view>
+        <style>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows></rows>
+        <cols></cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='calendars' name='excel.41926.778213599537' />
+          </datasources>
+          <datasource-dependencies datasource='excel.41926.778213599537'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[email]' role='dimension' type='nominal'>
+            </column>
+            <column-instance column='[email]' derivation='None' name='[none:email:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel.41926.778213599537].[none:email:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Number of Records])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:email:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <sort class='computed' column='[excel.41926.778213599537].[none:email:nk]' direction='DESC' using='[excel.41926.778213599537].[sum:Number of Records:qk]'>
+          </sort>
+          <slices>
+            <column>[excel.41926.778213599537].[none:email:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[excel.41926.778213599537].[sum:Number of Records:qk]' scope='cols' value='Unique calendar events' />
+            <format attr='subtitle' class='0' field='[excel.41926.778213599537].[sum:Number of Records:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel.41926.778213599537].[sum:Number of Records:qk]' scope='cols' value='true' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[excel.41926.778213599537].[none:email:nk]' value='25' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[excel.41926.778213599537].[none:email:nk]' value='260' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='text-orientation' value='-90' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[excel.41926.778213599537].[none:email:nk]' value='12' />
+            <format attr='font-weight' field='[excel.41926.778213599537].[none:email:nk]' value='normal' />
+            <format attr='font-size' field='[excel.41926.778213599537].[sum:Number of Records:qk]' value='11' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel.41926.778213599537].[none:email:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='401' />
+                <format attr='maxwidth' value='401' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel.41926.778213599537].[none:email:nk]</rows>
+        <cols>[excel.41926.778213599537].[sum:Number of Records:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='0' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel.41926.778213599537].[none:email:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[excel.41926.778213599537].[none:email:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='144' name='Sheet 1' width='174'>
+      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAIAAAAeHsdkAAAAA3NCSVQICAjb4U/gAAAACXBI
+      WXMAAA7EAAAOxAGVKw4bAAABQElEQVR4nO3SMQHAMAzAsKz8OWePObSHhMCHv90dmDm3A3iF
+      FYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWI
+      FYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWI
+      FYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWI
+      FYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWI
+      FYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWIFYgViBWI
+      FYgViBWIFYgViBWIFcgP9eEEHcxAtUgAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='176' name='Sheet 2' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
